@@ -149,34 +149,3 @@ input {
   background-color: #100800;
 }
 
-
-
-
-/* .todo {
-  display: flex;
-  background-color: blue;
-}
-
-.todo-btn {
-  background-color: green;
-  border: 0px;
-  outline: none;
-}
-
-.todo-btn:hover,
-.todo-btn:focus-visible {
-  background-color: cyan;
-}
-
-.delete-btn {
-  background-color: red;
-  border: 0px;
-  outline: none;
-}
-
-.delete-btn:hover,
-.delete-btn:focus-visible {
-  background-color: orange;
-} */
-
-
