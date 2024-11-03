@@ -1,0 +1,151 @@
+
+* {
+  font-family: sans-serif;
+  color: #ffffc0;
+  text-align: center;
+}
+
+button {
+  background-color: #403000;
+  color: #ffffc0;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+button:hover,
+button:focus-visible {
+  background-color: #c0c070;
+  color: #403000;
+
+}
+
+.main {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+
+  background-color: #100800;
+  padding: 10px;
+}
+
+
+
+.menu {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+
+  flex: 1;
+  align-self: flex-start;
+
+  background-color: #403000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#form {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}
+
+input {
+  background-color: #403000;
+  border: 1px solid #ffffc0;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#form button {
+  border: 1px solid #ffffc0;
+}
+
+
+
+.divider {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+  align-self: flex-start;
+}
+
+.div-btn {
+  border: none;
+  height: 50px;
+}
+
+
+
+.list {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 20px;
+
+  flex: 20;
+
+  height: 90vh;
+}
+
+.todo {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: stretch;
+
+  background-color: #403000;
+  color: #ffffc0;
+  border: 2px solid #100800;
+  border-radius: 10px;
+  list-style-type: none;
+}
+.todo-cross {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: stretch;
+
+  background-color: #100800;
+  color: #ffffc0;
+  border: 2px solid #403000;
+  border-radius: 10px;
+  list-style-type: none;
+}
+.todo-late {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: stretch;
+
+  background-color: #403000;
+  color: #ffffc0;
+  border: 2px solid #ff6000;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+.todo-btn {
+  flex: 100;
+}
+.todo-btn-cross {
+  flex: 100;
+
+  background-color: #100800;
+}
+
+.dlt-btn {
+  flex: 1;
+}
+.dlt-btn-cross {
+  flex: 1;
+
+  background-color: #100800;
+}
+
