@@ -8,6 +8,8 @@ Daily Todo List Web App:
 
 • If a todo task is "late", the app visually alerts to this.
 
+• (App uses React, Formik and Yup)
+
 
 Steps to run:
 
